@@ -108,7 +108,7 @@
     var g = svg.append("g");
 
     //det json data and draw it
-    d3.json("combined2.json", function(error, world) {
+    d3.json("https://raw.githubusercontent.com/DangTHS/My_map/master/combined2.json", function(error, world) {
       if(error) return console.error(error);
 
       //countries
